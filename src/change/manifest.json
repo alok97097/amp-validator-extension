@@ -1,0 +1,36 @@
+{
+    "manifest_version": 2,
+    "name": "NotifyVisitors AMP Validator",
+    "description": "This extension allow the user to validate amp page.",
+    "version": "0.1",
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": "icons/favicon.png",
+        "default_title": "NotifyVisitors Valid AMP"
+    },
+    "icons": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    },  
+    "background": {
+        "scripts": [
+            "background.js",
+            "validate.js"
+        ]
+    },
+    // "content_scripts": [
+    //     {
+    //         "matches": [
+    //             "<all_urls>"
+    //         ],
+    //         "js": [
+    //             "content.js"
+    //         ]
+    //     }
+    // ],
+    "permissions": [
+        "<all_urls>",
+        "storage"
+    ]
+}

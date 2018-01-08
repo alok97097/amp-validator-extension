@@ -1,0 +1,27 @@
+{
+  "name": "mapvalidator",
+  "version": "1.0.0",
+  "description": "validate the amp page",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RajeshVerma7/AMPValidator.git"
+  },
+  "author": "Rajesh Verma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RajeshVerma7/AMPValidator/issues"
+  },
+  "homepage": "https://github.com/RajeshVerma7/AMPValidator#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-replace": "^0.6.1",
+    "run-sequence": "^1.2.2"
+  }
+}

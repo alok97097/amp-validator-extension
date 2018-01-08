@@ -1,0 +1,161 @@
+html{
+  width: 450px;
+  max-height: 500px;
+}
+body {
+    background-color: #F3F3F3;
+    font-family: Roboto, 'Helvetica Neue' , sans-serif;
+}
+
+#dialog {
+    
+  }
+
+#header {
+    padding: 5px 10px;
+    border-bottom: 1px solid #D5D5D5;
+  }
+
+#footer{
+    padding: 13px 10px;
+    border-top: 1px solid #D5D5D5;
+}
+#headerNv{
+    color: rgba(0,0,0,0.54);
+    font: 400 22px 'Product Sans' , Arial , Helvetica , sans-serif;
+    margin: 4px 0;
+  }
+
+#content{
+  padding: 10px 0;
+}
+
+.notifyicon {
+    background-image: url(https://s3.amazonaws.com/notifyvisitors/static/notifylogo_black.png);
+    opacity: 0.60;
+    width: 135px;
+    height: 19px;
+    background-size: 135px 20px;
+    display: inline-block;
+    vertical-align: bottom;
+    position: relative;
+    top: -6px;
+  } 
+
+.detail {
+    font-size: 13px;
+    margin-bottom: 20px;
+    opacity: 0.87;
+    white-space: normal;
+    line-height: 22px;
+  }
+
+.clrBlue {
+    color: #4285F4;
+  }
+
+.link {
+    font-size: 13px;
+    text-decoration: none;
+    outline: 0;
+  }
+
+.vBtn{
+  text-align: center;
+}
+
+.error_icon{
+  color: red;
+  position: absolute;
+  left: 5px;
+  padding-top: 4px;
+}
+
+/* .collection-item:hover .chevron_icon{
+  display: inline-block;
+} */
+.chevron_icon{
+  color: #716a6a;
+  position: absolute;
+  right: 5px;
+  padding-top: 4px;
+}
+
+#checkAMP{
+ display: none;
+ padding-left: 10px;
+}
+
+.vBtn a{
+  color: white;
+}
+
+.head_text{
+  display: inline-block;
+  padding-left: 10px;
+}
+
+.errorList{
+  float: right;
+  clear: both;
+  display: inline-block;
+  text-align: right;
+}
+.collection{
+  margin: 10px 0 0 0;
+  display: none;
+  border: none;
+  padding: 5px 0;
+  max-height: 190px;
+  overflow-y: scroll;
+}
+
+.errorMsg{
+  display: none;
+  padding: 10px 20px;
+  background: #fff;
+}
+
+p{
+  margin: 0;
+  padding: 5px 0px;
+  font-size: 13px;
+  font-weight: 500;
+  color:#737373;
+}
+
+.collection-item{
+  padding: 7px 20px !important;
+  font-size: 13px;
+  font-weight: 500;
+  color: #696565;
+}
+
+#ampValidate{
+  background-color: #616161;
+}
+
+#ampValidate:hover{
+  background-color: #313131;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: rgba(48, 47, 47, 0.8); 
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+background: rgba(48, 47, 47, 0.8); 
+}

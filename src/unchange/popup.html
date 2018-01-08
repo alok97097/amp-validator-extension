@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script> -->
+  <link href="popup.css" rel="stylesheet" type="text/css">
+  <script src="popup.js"></script>
+</head>
+
+<body>
+  <div id="dialog">
+    <div id="header">
+      <h1 id="headerNv">
+        <span class="notifyicon"></span>
+        AMP Validator
+      </h1>
+    </div>
+    <div id="content">
+      <div class="vBtn">
+        <a id="ampValidate" class="waves-effect waves-light btn-flat">Validate</a>
+      </div>
+
+      <div id="errorList" class="collection">
+        <!-- <a href="#!" class="collection-item">
+          <span class="badge"><i class="material-icons">error</i></span>Alan
+        </a> -->
+      </div>
+      <p id="checkAMP"></p>
+    </div>
+    <div id="footer"> 
+      <a href="https://dev1.notifyvisitors.com/product/amp-validator" target="_blank" class="link clrBlue" id="homePage">Open NotifyVisitors AMP Validator</a>
+      <div class="errorList">
+        <a href="#" target="_blank" class="link clrBlue" id="moreError"></a>
+      </div>
+    </div> 
+  </div>
+</body>
+
+</html>
